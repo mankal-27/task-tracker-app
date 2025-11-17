@@ -78,7 +78,7 @@ npm run build
 Deploy manually (optional):
 
 npm run deploy
-
+```
 ---
 
 ## 📬 Contact
@@ -88,4 +88,3 @@ npm run deploy
 🌍 [LinkedIn](https://www.linkedin.com/in/mkalkutagi)
 💻 [GitHub](https://github.com/mankal-27)
 
----
