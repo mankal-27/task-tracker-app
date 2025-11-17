@@ -12,7 +12,7 @@ This application allows users to:
 ✔ Deploy automatically using GitHub Actions  
 
 🚀 **Live Demo:**  
-https://<your-username>.github.io/task-tracker/
+https://mankal-27.github.io/task-tracker-app/
 
 ---
 
