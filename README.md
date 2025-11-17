@@ -1,16 +1,90 @@
-# React + Vite
+# 📝 Task Tracker App  
+A clean, modern, and fully responsive **Task Tracker** built using **React + Vite + Tailwind CSS**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application allows users to:  
+✔ Add tasks  
+✔ Mark tasks as complete/incomplete  
+✔ Delete tasks  
+✔ Filter tasks (All / Active / Completed)  
+✔ View remaining tasks count  
+✔ Clear completed tasks  
+✔ Persist tasks using localStorage  
+✔ Deploy automatically using GitHub Actions  
 
-Currently, two official plugins are available:
+🚀 **Live Demo:**  
+https://<your-username>.github.io/task-tracker/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚛️ **React (Vite)** — Fast development & optimized production builds  
+- 🎨 **Tailwind CSS** — Lightweight, modern styling  
+- 💾 **localStorage Persistence** — Keeps tasks even after page refresh  
+- 🔍 **Filters** — All / Active / Completed  
+- 🔄 **Toggle Completion** — Click to complete/uncomplete  
+- 🗑 **Delete Tasks** — Remove instantly  
+- 🧹 **Clear Completed** — One-click cleanup  
+- 📱 **Responsive Design** — Works on all devices  
+- 🔧 **GitHub Actions CI/CD** — Auto-deploy every push to `main`  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+src/
+├── components/
+│ ├── TaskForm.jsx
+│ ├── TaskItem.jsx
+├── App.jsx
+├── main.jsx
+├── index.css
+
+public/
+├── favicon.ico
+├── manifest.json
+├── icon-512.png
+
+.github/
+└── workflows/
+└── deploy.yml
+
+
+---
+
+## 🛠️ Installation & Setup
+
+Clone the repo:
+
+```bash
+git clone https://github.com/mankal-27/task-tracker-app
+cd task-tracker-app
+
+Install dependencies:
+
+npm install
+
+
+Run locally:
+
+npm run dev
+
+
+Build for production:
+
+npm run build
+
+
+Deploy manually (optional):
+
+npm run deploy
+
+👨‍💻 Author
+
+Manjunath Kalkutagi
+
+🔗 Portfolio → https://mankal-27.github.io/portfolio/
+
+🐙 GitHub → https://github.com/mankal-27
+
+💼 LinkedIn → https://www.linkedin.com/in/mkalkutagi
