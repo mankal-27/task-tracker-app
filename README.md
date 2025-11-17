@@ -31,7 +31,7 @@ https://mankal-27.github.io/task-tracker-app/
 ---
 
 ## 📂 Project Structure
-
+```
 src/
 ├── components/
 │ ├── TaskForm.jsx
@@ -49,7 +49,7 @@ public/
 └── workflows/
 └── deploy.yml
 
-
+```
 ---
 
 ## 🛠️ Installation & Setup
@@ -79,12 +79,13 @@ Deploy manually (optional):
 
 npm run deploy
 
-👨‍💻 Author
+---
 
-Manjunath Kalkutagi
+## 📬 Contact
 
-🔗 Portfolio → https://mankal-27.github.io/portfolio/
+**Manjunath Kalkutagi**
+📧 [mnkalkutagi@gmail.com](mailto:mnkalkutagi@gmail.com)
+🌍 [LinkedIn](https://www.linkedin.com/in/mkalkutagi)
+💻 [GitHub](https://github.com/mankal-27)
 
-🐙 GitHub → https://github.com/mankal-27
-
-💼 LinkedIn → https://www.linkedin.com/in/mkalkutagi
+---
